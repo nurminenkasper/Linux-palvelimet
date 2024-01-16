@@ -7,4 +7,4 @@ Pelottavan Pontson testitehtävä
 ## Pythonia
     print("Alla kuva Pelottavasta Pontosta")
 
-![Pelottava Pontso](https://i.imgur.com/ACGfzOY.png)
+![Pelottava Pontso](pelottava_pontso.png)
