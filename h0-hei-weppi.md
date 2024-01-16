@@ -4,5 +4,7 @@
 
 Pelottavan Pontson testitehtävä
 
-## Myös python-koodilla
+## Pythonia
     print("Alla kuva Pelottavasta Pontosta")
+
+![Alt text]((https://i.imgur.com/ACGfzOY.png)
