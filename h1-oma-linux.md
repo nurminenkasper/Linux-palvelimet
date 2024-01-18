@@ -3,3 +3,9 @@
 ## Raportin kirjoittaminen 
 
 Tiivistelmä aiheesta Raportin kirjoittaminen, mikä löytyy Tero Karvisen sivuilta https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+
+- Raportin tulisi olla täsmällinen ja toistettava. Raportissa tulisi atkiivisesti kertoa mitä teit ja mitä tapahtui. Raportin kirjoittaminen työtä tehdessä on suositeltavaa.
+- Raportissa olisi hyvä myös sisällyttää ympäristö, jossa työ tehtiin, koska monet asiat ja mahdolliset ongelmat toimivat sekä ilmenevät eri tavalla tietokoneissa ja verkoissa.
+- Kirjoita menneessä aikamuodossa ja kerro tarkasti, mitä komentoja annoit tai mitä klikkasit. Raportoi kaikki tulokset ja mahdolliset viat ohjelmissa, työkaluissa ja laitteissa.
+- Raportin tulee olla helppolukuinen. Käytä väliotsikoita, kirjoita selkeää kieltä ja viittaa mahdollisiin lähteisiin.
+- Vältä sepittämistä, plagiointia ja kuvien luvatonta käyttöä.
