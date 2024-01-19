@@ -1,6 +1,8 @@
 # h1 Oma Linux 
 
-## Raportin kirjoittaminen 
+## Tiivistelmät
+
+### Raportin kirjoittaminen 
 
 Tiivistelmä aiheesta Raportin kirjoittaminen. Luettavissa Tero Karvisen sivuilta https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
@@ -10,7 +12,7 @@ Tiivistelmä aiheesta Raportin kirjoittaminen. Luettavissa Tero Karvisen sivuilt
 - Raportin tulee olla helppolukuinen. Käytä väliotsikoita, kirjoita selkeää kieltä ja viittaa mahdollisiin lähteisiin.
 - Vältä sepittämistä, plagiointia ja kuvien luvatonta käyttöä.
 
-## FSF Free Software Definition
+### FSF Free Software Definition
 
 Tiivistelmä aiheesta FSF Free Software Definition, missä eriteltynä etenkin neljä vapautta. Luettavissa https://www.gnu.org/philosophy/free-sw.html
 
