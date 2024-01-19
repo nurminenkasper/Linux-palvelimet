@@ -14,4 +14,5 @@ Tiivistelmä aiheesta Raportin kirjoittaminen. Luettavissa Tero Karvisen sivuilt
 
 Tiivistelmä aiheesta FSF Free Software Definition, missä eriteltynä etenkin neljä vapautta. Luettavissa https://www.gnu.org/philosophy/free-sw.html
 
+- Free Software eli Suomennettuna vapaa ohjelmisto tarkoittaa karkeasti sitä, että käyttäjällä on vapaa oikeus käyttää, kopioida, jakaa, opiskella ja kehittää ohjelmistoa.
 - 
