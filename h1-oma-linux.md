@@ -41,7 +41,7 @@ Varsinaisesti ennen Virtuaalikoneen ja Linuxin asentamista käydään läpi olee
 
 Asennuksen tukena käytetty Tero Karvisen kattavia ohjeita "Install Debian on Virtualbox - Updated 2023". Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
-Virtual Machinen asentamisen jälkeen, aloin täyttämään kohtia "Name and Operating System" suoraan Teron ohjeistuksen mukaan. Expert Mode päälle, virtuaalikoneelle nimi, ISO Imagen valinta, tyypiksi Linux ja versioksi vaihdoin Debian (64-bit). Valitsin myös Skip Unattended Installation.
+Virtual Machinen asentamisen jälkeen, aloin täyttämään kohtia "Name and Operating System" suoraan Teron ohjeistuksen mukaan. Expert Mode päälle, virtuaalikoneelle nimi, tyypiksi Linux ja versioksi vaihdoin Debian (64-bit). Valitsin myös Skip Unattended Installation. Teron ohjeista poiketen valitsin myös jo tässä vaiheessa ISO levyn testimielessä. Teron kuvista ei tätä vaihtoehtoa asennukselle lyötynyt, mutta enteilin sen olevan VirtualBoxin päivitysten myötä tullut vaihtoehto. 
 
 ![VM1](H1_1.png)
 
@@ -52,4 +52,6 @@ Hyppäsin kohdan "Unattended Install" ohi, sillä se valittiin ohitettavaksi jo 
 Seuraavaksi kohdassa "Hard Disk" poikkesin hieman ohjeistuksen varatun tallennustilan koosta ja asetin 100 GB varmuuden vuoksi, ettei tila pääse loppumaan kesken. Hard Disk File Type and Variant kohdan pidin ohjeiden mukaisena, eli VDI (VirtualBox Disk Image). Tässä vaiheessa myös kaikki kohdas täytettynä päästiin seuraavaan alueeseen asennusta painamalla Finish.
 
 ![VM3](H1_3.png)
+
+Seuraavassa kohdassa olisi pitänyt luodun virtuaalikoneen Storage asetuksista valita IDE Controllerille haluttu Debian ISO, mutta koska jo aikaisemmin olin valinnut ISO levyn oli nämä tiedot Storagen alla valmiiksi syötettynä. 
 
