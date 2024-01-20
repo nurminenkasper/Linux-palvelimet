@@ -30,12 +30,12 @@ Varsinaisesti ennen Virtuaalikoneen ja Linuxin asentamista käydään läpi olee
 
 ### Rauta & HostOS
 
-Asus X570 ROG Crosshair VIII Dark Hero AM4
-AMD Ryzen 5800X3D
-G.Skill DDR4 2x16gb 3600MHz CL16
-2x SK hynix Platinum P41 2TB PCIe NVMe Gen4
-Asus ROG Strix Nvidia RTX 4090
-Windows 11 Home
+- Asus X570 ROG Crosshair VIII Dark Hero AM4
+- AMD Ryzen 5800X3D
+- G.Skill DDR4 2x16gb 3600MHz CL16
+- 2x SK hynix Platinum P41 2TB PCIe NVMe Gen4
+- Asus ROG Strix Nvidia RTX 4090
+- Windows 11 Home
 
 ### Asennus
 
