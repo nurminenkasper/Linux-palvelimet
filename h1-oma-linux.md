@@ -39,3 +39,5 @@ Varsinaisesti ennen Virtuaalikoneen ja Linuxin asentamista käydään läpi olee
 
 ### Asennus
 
+Asennuksen tukena käytetty Tero Karvisen kattavia ohjeita "Install Debian on Virtualbox - Updated 2023". Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/
+
