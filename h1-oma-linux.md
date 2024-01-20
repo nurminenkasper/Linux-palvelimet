@@ -57,6 +57,6 @@ Seuraavassa kohdassa olisi pitänyt luodun virtuaalikoneen Storage asetuksista v
 
 ![VM4](H1_4.png)
 
-Käynnistäessä uutta virtuaalikonettani törmäsinkin heti ensimmäiseen ongelmaani. Käynnistys rullasi hetken aikaa, mutta pysähtyi seuraavaan viestiin. "Aborted, AMD-V is disabled in the BIOS (or by the host OS)". Rupesin heti selvittelemään asiaa ja törmäsin Partitionwizard ohjeisiin, jotka on luettavissa https://www.partitionwizard.com/partitionmanager/amd-v-is-disabled-in-the-bios.html
+Käynnistäessä uutta virtuaalikonettani törmäsinkin heti ensimmäiseen ongelmaani. Käynnistys rullasi hetken aikaa, mutta pysähtyi seuraavaan viestiin. "Aborted, AMD-V is disabled in the BIOS (or by the host OS)". Rupesin heti selvittelemään asiaa ja törmäsin Partitionwizard ohjeisiin, jotka on luettavissa https://www.partitionwizard.com/partitionmanager/amd-v-is-disabled-in-the-bios.html. Sivuston ohjeiden ensimmäinen kohta "Fix 1. Enable AMD-V from the BIOS settings" tuotti itselle tulosta. Bootti BIOS:siin ja CPU asetuksista SVM päälle, heti tämän jälkeen virtuaalikone käynnistyi ongelmitta. 
 
 
