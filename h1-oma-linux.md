@@ -55,3 +55,5 @@ Seuraavaksi kohdassa "Hard Disk" poikkesin hieman ohjeistuksen varatun tallennus
 
 Seuraavassa kohdassa olisi pitänyt luodun virtuaalikoneen Storage asetuksista valita IDE Controllerille haluttu Debian ISO, mutta koska jo aikaisemmin olin valinnut ISO levyn oli nämä tiedot Storagen alla valmiiksi syötettynä. 
 
+![VM4](H1_4.png)
+
