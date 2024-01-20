@@ -57,3 +57,4 @@ Seuraavassa kohdassa olisi pitänyt luodun virtuaalikoneen Storage asetuksista v
 
 ![VM4](H1_4.png)
 
+Käynnistäessä uutta virtuaalikonettani törmäsinkin heti ensimmäiseen ongelmaani. Käynnistys rullasi hetken aikaa, mutta pysähtyi seuraavaan viestiin. "Aborted, AMD-V is disabled in the BIOS (or by the host OS)". 
