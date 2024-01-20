@@ -49,3 +49,7 @@ Hyppäsin kohdan "Unattended Install" ohi, sillä se valittiin ohitettavaksi jo 
 
 ![VM2](H1_2.png)
 
+Seuraavaksi kohdassa "Hard Disk" poikkesin hieman ohjeistuksen varatun tallennustilan koosta ja asetin 100 GB varmuuden vuoksi, ettei tila pääse loppumaan kesken. Hard Disk File Type and Variant kohdan pidin ohjeiden mukaisena, eli VDI (VirtualBox Disk Image). Tässä vaiheessa myös kaikki kohdas täytettynä päästiin seuraavaan alueeseen asennusta painamalla Finish.
+
+![VM3](H1_3.png)
+
