@@ -41,3 +41,6 @@ Varsinaisesti ennen Virtuaalikoneen ja Linuxin asentamista käydään läpi olee
 
 Asennuksen tukena käytetty Tero Karvisen kattavia ohjeita "Install Debian on Virtualbox - Updated 2023". Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
+Virtual Machinen asentamisen jälkeen, aloin täyttämään kohtia suoraan Teron ohjeistuksen mukaan. Expert Mode päälle, virtuaalikoneelle nimi, ISO Imagen valinta, tyypiksi Linux ja versioksi vaihdoin Debian (64-bit). Valitsin myös Skip Unattended Installation.
+
+![VM1](H1_1.png)
