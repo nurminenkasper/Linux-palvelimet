@@ -32,7 +32,7 @@ Varsinaisesti ennen Virtuaalikoneen ja Linuxin asentamista käydään läpi olee
 
 - Asus X570 ROG Crosshair VIII Dark Hero AM4
 - AMD Ryzen 5800X3D
-- G.Skill DDR4 2x16gb 3600MHz CL16
+- ~~G.Skill DDR4 2x16gb 3600MHz CL16~~ G.Skill DDR4 2x16gb 3200MHz CL16
 - 2x SK hynix Platinum P41 2TB PCIe NVMe Gen4
 - Asus ROG Strix Nvidia RTX 4090
 - Windows 11 Home
@@ -67,3 +67,30 @@ Pitkälle ei tehtävän tekemisessä kuitenkaan päästy, sillä seuraavassa vai
 ![VM7](H1_7.png)
 
 Tehtävä siis palautettu nyt hieman keskeneräisenä raudan ongelmista johtuen, että päästään ajallisesti deadlineen mennessä eteenpäin. Laitoin uudet muistit koneeseen tilaukseen, mutta ne saapuu vasta maanantaina 22.01.2024 joten jatkan asennusta vasta sinä päivänä illasta. Raportti päivittyy jatkossa siis heti raudan uusimisen jälkeen toivottavasti hieman onnistuneimmissa merkeissä. 
+
+### Asennuksen jatkaminen muistien vaihdon jälkeen
+
+Muistit tosissaan saapui maanantai-iltana ja heti asentamisen jälkeen pääsi jatkamaan Linuxin parissa. Hommahan lähti takaisin normaaleille raiteille ja Debian käynnistyi heti ongelmitta. Testailin samalla heti, että internet toimii ja sekin toimi moitteita.
+
+![VM8](H1_8.png)
+![VM9](H1_9.png)
+
+Asennus käyntiin työpöydältä ja sekin sujui moitteitta läpi. Tero Karvisen ohjetta hyödyntäen, asetukset kuntoon ja kovaa ajoa kohti ensimmäistä käynnistystä.
+
+![VM10](H1_10.png)
+![VM11](H1_11.png)
+![VM12](H1_14.png)
+
+Ensimmäinen käynnistys ja kirjautuminen sisään sujui ongelmitta, kuin myös päivitykset Terminalin kautta. Palomuuri lähti päälle myös ongelmitta.
+
+![VM13](H1_16.png)
+![VM14](H1_17.png)
+![VM15](H1_18.png)
+
+Viimeisimpänä tehtävänä ennen lopetusta vielä haltuun ylimääräinen osuus Teron ohjeista ja VBox kautta hieman parempaa resoluutiota käyttöön virtuaalikoneelle. 
+
+![VM16](H1_19.png)
+
+Kaikki sujui kuin tanssi muistien vaihdon jälkeen ja kiitoksena seisoo nyt entistäkin paremmalla resoluutiolla virtuaalikoneella Debian.
+
+![VM17](H1_20.png)
