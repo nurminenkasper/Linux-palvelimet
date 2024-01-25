@@ -1,5 +1,15 @@
 # h2 Komentaja Pingviini
 
-## Tiivistelmät
+## x) Tiivistelmä
 
-### Otsikko BLABLA
+### Command Line Basics Revisited
+
+-
+-
+-
+-
+-
+
+### a) Micro
+
+
