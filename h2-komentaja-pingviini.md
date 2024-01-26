@@ -52,3 +52,23 @@ Komentorivien asennuksessa piti valita kolme eri terminaalissa toimivaa ohjelmaa
 
 ![L4](H2_4.png)
 
+Ohjelmat itsessään aukeaa suoraan terminalissa syöttämällä komennoksi kyseisen ohjelman nimi.
+
+        neofetch
+
+Neofetch näyttää Linuxiin liittyvät tiedot Kernelistä käytetäävään rautaan. 
+
+![L5](H2_5.png)
+
+        htop
+
+Htop toimii interaktiivisena prosessien hallintana. Htop siis listaa kaikki aktiiviset prosesseja käyttävät ohjelmat ja toimet. Htop tukee myös hiirellä käyttämistä terminaalissa, joten pelkästään tekstikomentoihin ei tarvitse turvautua. 
+
+![L6](H2_6.png)
+
+        tree
+
+Lyhykäisyydessään Tree listaa yksityiskohtaisesti koneella olevat tiedostot, esimerkki kuvassa näkyy hyvin toisella tunnilla suoritetun tehtävän kansiot ja tiedostot esimerkkinä.
+
+![L7](H2_7.png)
+
