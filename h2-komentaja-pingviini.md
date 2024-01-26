@@ -46,4 +46,9 @@ Terminaalin syötteeseen aukeaa lista eri asioita liittyen virtualboxin Debian a
 - Input 0-8: Viittaa erilaisiin emolevyyn yhdistettyihin liitäntöihin esimerkiksi virtanappi, äänilähde yms.
 
 ## c) Apt
+Komentorivien asennuksessa piti valita kolme eri terminaalissa toimivaa ohjelmaa. Valitsin tehtävään htop, neofetch ja tree ohjelmat. Kaikki ohjelmien nimet asennuskomennon perään asettamalla, saa asenettua kaikki yhdellä kerralla.
+
+        sudo apt-get install htop neofetch tree
+
+![L4](H2_4.png)
 
