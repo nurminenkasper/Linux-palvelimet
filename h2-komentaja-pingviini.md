@@ -72,3 +72,4 @@ Lyhykäisyydessään Tree listaa yksityiskohtaisesti koneella olevat tiedostot, 
 
 ![L7](H2_7.png)
 
+## d) FHS
