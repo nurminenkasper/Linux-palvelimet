@@ -127,3 +127,28 @@ Logeista pitäisi löytyä kaikki järjestelmän tapahtumalogit. Itselle pisti k
 ![L15](H2_15.png)
 
 ## e) The Friendly M
+Grep komentoja käyttämällä voidaan helposti lajitella tekstiä ja löytää sieltä tietoa. Tätä varten loin nopeasti random text generaattorilla Suomalaisen Jukolan poikiin liittyvän Lorem tekstin ja hyödynsin sen selvittämiseen eri komentoja.
+
+        grep "Jukolan" lorem
+
+Simppeli, etsii Jukolan sanan sisältävät paragraafit tekstitiedostosta Lorem.
+
+        grep -o "Jukolan" lorem
+
+Etsii ja listaa tiedostosta kaikki Jukolan sanat tekstitiedostosta Lorem.
+
+        grep -n "Jukolan" lorem
+
+Tällä haetaan tektistä Jukolan sanan sisältävät lauseet ja numeroi rivinumeron.
+
+![L16](H2_16.png)
+
+## f) Pipe
+Pipe komennolla yhdistetään kaksi komentoa erottamalla ne | merkillä. Hyödynsin tähän tehtävänantoon edellisen kohdan tekstitiedostoa ja sain grep komentoon | viivan jälkeen lisäämällä tavaraa syöttämään käytettyjen "Jukolan" sanojen määrän numerona.
+
+        grep -o "Jukolan" loren | wc -l
+
+![L17](H2_17.png)
+
+## g) Tukki
+Tehtävä ei kyllä auennut lainkaan. Pyörittelin journalctl -f & sudo journalctl komentoja ja yritin tehdä lokitapahtumia, mutta mitään varsinaisa tulosta en saanut aikaan. 
