@@ -92,3 +92,16 @@ Kaikki systeemin ohjelmiin ja toimintaan liittyvät kansiot. Tarkastelin mielenk
 ![L10](H2_10.png)
 ![L11](H2_11.png)
 ![L12](H2_12.png)
+
+### /media/
+Media kansion pitäisi sisältää esimerkiksi irroitettavaa Mediaa kuten CD-levyt tai USB-tikut. Itsellä ei esimerkkiä tähän ollut antaa, mutta kuvissa näkyy miten sinne terminalin kautta päästään navigoimaan.
+
+![L13](H2_13.png)
+
+### /var/log/
+Logeista pitäisi löytyä kaikki järjestelmän tapahtumalogit. Itselle pisti kansiorakenteen avatessa heti silmään eri värillä oleva README, joten pistin sen avaten Nanolla.
+
+![L14](H2_14.png)
+![L15](H2_15.png)
+
+## e) The Friendly M
