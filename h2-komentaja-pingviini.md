@@ -18,5 +18,4 @@ Micron käyttöä varten tarvitsi asentaa itse ohjelma
 Komennolla käyntiin micro asennus, mikä omassa tapauksessa oli jo asennettuna edellisen tunnin testailujen jäljiltä.
 
 ## b) Rauta
-
 Raudan testaamiseen 
