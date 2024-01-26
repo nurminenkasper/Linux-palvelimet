@@ -82,12 +82,23 @@ Root directory / ja sen tiedot saadaan helposti näkyviin komennolla. Sisältä 
 ![L8](H2_8.png)
 
 ### /Home/ & /Home/Pontso/
-Käyttäjäkansioiden pohja ja oman käyttäjäni Pontso kansio, ainoa paikka mihin pystyn Pontso käyttäjällä tallettamaan tietoa. 
+Käyttäjäkansioiden pohja ja oman käyttäjäni Pontso kansio, ainoa paikka mihin pystyn Pontso käyttäjällä tallettamaan tietoa.
+
+        cd /
+        ls
+        cd home
+        ls
+        cd pontso
 
 ![L9](H2_9.png)
 
 ### /etc/
 Kaikki systeemin ohjelmiin ja toimintaan liittyvät kansiot. Tarkastelin mielenkiinnosta Fonts kansion sisältöä avaamalla sen Nanolla.
+
+        cd /etc/
+        cd fonts
+        ls
+        nano fonts.conf
 
 ![L10](H2_10.png)
 ![L11](H2_11.png)
@@ -96,10 +107,21 @@ Kaikki systeemin ohjelmiin ja toimintaan liittyvät kansiot. Tarkastelin mielenk
 ### /media/
 Media kansion pitäisi sisältää esimerkiksi irroitettavaa Mediaa kuten CD-levyt tai USB-tikut. Itsellä ei esimerkkiä tähän ollut antaa, mutta kuvissa näkyy miten sinne terminalin kautta päästään navigoimaan.
 
+        cd /media/
+        ls
+        cd pontso
+        ls
+
 ![L13](H2_13.png)
 
 ### /var/log/
 Logeista pitäisi löytyä kaikki järjestelmän tapahtumalogit. Itselle pisti kansiorakenteen avatessa heti silmään eri värillä oleva README, joten pistin sen avaten Nanolla.
+
+        cd /var/
+        ls
+        cd log
+        ls
+        nano README
 
 ![L14](H2_14.png)
 ![L15](H2_15.png)
