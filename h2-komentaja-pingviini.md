@@ -17,5 +17,7 @@ Micron käyttöä varten tarvitsi asentaa itse ohjelma
 
 Komennolla käyntiin micro asennus, mikä omassa tapauksessa oli jo asennettuna edellisen tunnin testailujen jäljiltä.
 
+![L1](H2_1.png)
+
 ## b) Rauta
 Raudan testaamiseen 
