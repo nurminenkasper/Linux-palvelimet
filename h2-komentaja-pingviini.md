@@ -79,5 +79,16 @@ Root directory / ja sen tiedot saadaan helposti näkyviin komennolla. Sisältä 
 
         ls /
 
-![8](H2_8.png)
+![L8](H2_8.png)
 
+### /Home/ & /Home/Pontso/
+Käyttäjäkansioiden pohja ja oman käyttäjäni Pontso kansio, ainoa paikka mihin pystyn Pontso käyttäjällä tallettamaan tietoa. 
+
+![L9](H2_9.png)
+
+### /etc/
+Kaikki systeemin ohjelmiin ja toimintaan liittyvät kansiot. Tarkastelin mielenkiinnosta Fonts kansion sisältöä avaamalla sen Nanolla.
+
+![L10](H2_10.png)
+![L11](H2_11.png)
+![L12](H2_12.png)
