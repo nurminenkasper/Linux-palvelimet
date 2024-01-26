@@ -13,7 +13,7 @@
 ## a) Micro
 Micron käyttöä varten tarvitsi asentaa itse ohjelma
 
-  sudo apt-get install micro
+        sudo apt-get install micro
 
 Komennolla käyntiin micro asennus, mikä omassa tapauksessa oli jo asennettuna edellisen tunnin testailujen jäljiltä.
 
