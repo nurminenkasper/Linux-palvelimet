@@ -73,3 +73,11 @@ Lyhykäisyydessään Tree listaa yksityiskohtaisesti koneella olevat tiedostot, 
 ![L7](H2_7.png)
 
 ## d) FHS
+
+### Root Directory /
+Root directory / ja sen tiedot saadaan helposti näkyviin komennolla. Sisältä löytyy ns kaikki tietokoneen kansiot eli niin sanotusti pohjimmainen (tai päälimmäinen?) hakemisto.
+
+        ls /
+
+![8](H2_8.png)
+
