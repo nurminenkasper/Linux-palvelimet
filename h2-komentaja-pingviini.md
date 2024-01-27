@@ -3,11 +3,9 @@
 ## x) Tiivistelmä
 
 ### Command Line Basics Revisited
--
--
--
--
--
+- Linuxin komentorivi on kestänyt aikaa ja ollutkin käytössä jo aikana ennen internettiä. Komentorivi tarjoaa käyttäjälle nopean ja helppokäyttöisen tavan hallita järjestelmää
+- Komentorivillä liikutaan, tarkastellaan & hallinoidaan tiedostoja ja muokataan tekstejä komennoilla. Näitä on esimerkiksi: 'pwd', 'ls', 'cd', 'mkdir' yms.
+- Komentorivin kautta voi hallita myös hakemistoja kuten esimerkiksi, /, /home/, /etc/, /media/ ja /var/log/.
 
 ## a) Micro
 Micron käyttöä varten tarvitsi asentaa itse ohjelma
