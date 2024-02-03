@@ -32,12 +32,12 @@ Apachen logit auki komennolla
 
 Tarkkaillaan tarkemmin kuvassa näkyvää ylintä riviä. 
 
-- 127.0.0.1 -  Käyttäjän tai palvelimen IP osoite, mistä pyyntö tulee
-- 02/Feb/2024:20:18:25 +0200 - Pyyntöaika
-- GET / HTTP/1.1 - Käytetty HTTP-tapa ja resurssi
-- 200 - HTTP tilakoodi, tässä tapauksessa OK
-- 3380 - Siiretyn datan määrä tavuina
-- Mozilla/5.0... - Käyttäjän selain ja järjestelmätiedot
+- **127.0.0.1** -  Käyttäjän tai palvelimen IP osoite, mistä pyyntö tulee
+- **02/Feb/2024:20:18:25 +0200** - Pyyntöaika
+- **GET / HTTP/1.1** - Käytetty HTTP-tapa ja resurssi
+- **200** - HTTP tilakoodi, tässä tapauksessa OK
+- **3380** - Siiretyn datan määrä tavuina
+- **Mozilla/5.0...** - Käyttäjän selain ja järjestelmätiedot
 
 ## c) Etusivu
 Etusivun uudelleen rakennus ja Name Based Virtual Hostin tekeminen käyntiin Tero Karvisen ohjeistuksen mukaan. 
