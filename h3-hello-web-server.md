@@ -117,15 +117,28 @@ Käytin Tero Karvisen sivuilta löytyvää lyhyttä HTML5 sivustoa ja validoin s
 ![L3](H3_14.png)
 
 ## f) Curl
+Curl komennolla saadaan tulostettua komentorivissä koko sisältö annetusta osoitteesta. 
 
+        curl http://hattu.example.com
+
+![L3](H3_17.png)
+
+Curl -i komento pyytää puolestaan kaikki responsiiviset otsikot annetusta osoitteesta.
+
+        curl -i http://hattu.example.com
+
+![L3](H3_16.png)
 
 ## m) GitHub Education
+Vapaaehtoisen tehtävän suoritin ja linkitin oman Haaga-Helia tilini, jotta saan GitHub Educationin käyttöön.
+
+![L3](H3_15.png)
 
 
 ## Lähteet
 
-Name-based Virtual Host Support - https://httpd.apache.org/docs/2.4/vhosts/name-based.html Luettu 02.02.2024
-Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address - https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu 02.02.2024
-Short HTML5 page | Tero Karvinen - https://terokarvinen.com/2012/short-html5-page/ Luettu 02.02.2024
-Nu Html Checker - https://validator.w3.org/ Luettu 02.02.2024
-Understanding The Apache Access Log - https://www.sumologic.com/blog/apache-access-log/ Luettu 03.02.2024
+- Name-based Virtual Host Support - https://httpd.apache.org/docs/2.4/vhosts/name-based.html Luettu 02.02.2024
+- Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address - https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu 02.02.2024
+- Short HTML5 page | Tero Karvinen - https://terokarvinen.com/2012/short-html5-page/ Luettu 02.02.2024
+- Nu Html Checker - https://validator.w3.org/ Luettu 02.02.2024
+- Understanding The Apache Access Log - https://www.sumologic.com/blog/apache-access-log/ Luettu 03.02.2024
