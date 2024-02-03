@@ -3,14 +3,13 @@
 ## x) Tiivistelmä
 
 ### Name-based Virtual Host Support
--
--
--
+- Name-Based Virtual Hostaus on normaalisti simppelimpää kuin IP-Based Virtual hostaus.
+- Virtuaali hostausta tuli käyttää aina, paitsi jos käytössä on laitteistoa joka vaatii IP-pohjaista hostausta.
+- Virtuaali hostaus tapahtuu aina asettamalla ja määrittelemällä lohkoja. ja määreitä.
 
 ### Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
--
--
--
+- Apache mahdollistaa usean eri Virtuaalipalvelimen hostaamisen yhden IP osoitteen kautta
+- Virtuaalipalvelimen tekeminen voidaan jakaa osiin: Apachen asennus, Uuden virtuaalipalvelimen tekeminen, Uuden sivun rakentaminen ja testaus
 
 ## a) Apache
 Päivän hommat laitettiin käyntiin hakemalla mahdolliset päivitykset. 
