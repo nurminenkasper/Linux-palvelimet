@@ -42,6 +42,20 @@ Tarkkaillaan tarkemmin kuvassa näkyvää ylintä riviä.
 ## c) Etusivu
 Etusivun uudelleen rakennus ja Name Based Virtual Hostin tekeminen käyntiin Tero Karvisen ohjeistuksen mukaan. 
 
+        sudoedit /etc/apache2/sites-available/hattu.example.com.conf
+
+Nano aukesi, mihin syötetin seuraavaksi Virtual Hostille oleelliset tiedot. 
+
+        <VirtualHost *:80> **Määritellään verkkoliikenteelle portti 80, joka on HTTP vakioportti**
+        ServerName hattu.example.com **Virtuaalipalvelimine pääasiallinen nimi**
+        ServerAlias www.hattu.example.com **Vaihtoehtoinen nimi virtuaalipalvelimelle**
+        DocumentRoot /home/pontso/publicsites/hattu.example.com **Hakemiston asettaminen, josta palvelin hakee tiedostot HTTP-pyyntöihin**
+        <Directory /home/pontso/publicsites/hattu.example.com> 
+        Require all granted **Sallii kaikentyyppisten käyttäjien pääsyn hakemistoon**
+        </Directory>
+        </VirtualHost>
+
+
 ## e) HTML5
 
 
