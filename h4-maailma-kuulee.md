@@ -14,3 +14,6 @@
 
 ## a) + d) Virtuaalipalvelun vuokraus & Domain-nimi
 
+## b) Alkutoimet
+
+## c) Weppipalvelin
