@@ -72,6 +72,88 @@ Syötin Host kohdalle @ & www alle IP-osoitteen, jonka DigitalOceanista sain ja 
 ![H4](H4_15.png)
 
 ## b) Alkutoimet
+Virtuaalikone auki ja ensimmäisenä asensin openssh-clientin, että pääsen ottamaan yhteyden uuteen virtuaalipalvelimeeni.
 
+        sudo apt-get install openssh-client
+
+![H4](H4_16.png)
+
+Seuraavaksi otinkin heti root yhteyden suoraan virtuaalipalvelimeeni onnistuneesti, tässä komennossa käytin DigitalOceanilta löytyvää virtuaalipalvelimen IP-osoitetta.
+
+        ssh root@174.138.15.127
+
+![H4](H4_17.png)
+
+Aloitin päivittämällä virtuaalipalvelimen ja käynnistämällä sen uudestaan. 
+
+        sudo apt-get update
+        sudo apt-get dist upgrade
+        sudo systemctl reboot
+
+![H4](H4_18.png)
+![H4](H4_19.png)
+![H4](H4_20.png)
+
+Seuraavaksi oli vuorossa tulimuurin päälle laittaminen ja siihen tarpeellisten reikien tekeminen
+
+        sudo apt-get install ufw
+        sudo ufw allow 22/tcp; sudo ufw enable; sudo ufw allow 80/tcp
+
+![H4](H4_21.png)
+![H4](H4_22.png)
+
+Seuraavaksi lisäsin itselleni käyttäjän palvelimelle. 
+
+        sudo adduser pontso
+
+![H4](H4_23.png)
+![H4](H4_24.png)
+
+Lisäsin vielä sudo oikeudet tehdylle käyttäjälle
+
+        sudo adduser pontso sudo
+
+![H4](H4_25.png)
+
+Avasin toisen terminaalin, missä testasin miten kirjaudun sisälle uudella käyttäjällä ja sen, että sudo oikeudet toimivat.
+
+![H4](H4_26.png)
+
+Seuraavaksi suljin kokonaan root käyttäjän pois käytöstä. sshd_config tiedoista kävin vaihtamassa PermitRootLogin kohdan Yes -> No.
+
+        sudo usermod --lock root
+        sudoedit /etc/ssd/sshd_config
+
+![H4](H4_27.png)
+![H4](H4_28.png)
 
 ## c) Weppipalvelin
+Seuraavaksi asensin apache2 weppisivun rakentamista palvelimelle varten.
+
+      sudo apt-get install apache2
+
+![H4](H4_29.png)
+
+Testasin vielä sen toiminnan asentamisen jälkeen
+
+        sudo systamctl status apache2
+
+![H4](H4_30.png)
+
+Testasin seuraavaksi Firefoxilla, että palvelin vastaa molemmista sekä domain-nimestä ja IP-osoitteesta.
+
+![H4](H4_31.png)
+
+Viimeisimpänä tehtävänä korvasin vielä etusivun uudella ja testasin sen toimivuuden.
+
+        echo Maailma kuulee! |sudo tee /var/www/html/index.html
+
+![H4](H4_32.png)
+
+## Lähteet
+- Susanna Lehto, Teoriasta käytäntöön pilvipalvelimen avulla. https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/ Luettu 9.2.2024
+- Tero Karvinen, First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/ Luettu 9.2.2024
+- DigitalOcean. https://www.digitalocean.com/ Luettu 9.2.2024
+- GitHub. https://github.com/ Luettu 9.2.2024
+- GitHub Education. https://education.github.com/ Luettu 9.2.2024
+- Karvinen, T. 2018. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu 9.2.2024
