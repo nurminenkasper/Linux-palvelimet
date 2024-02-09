@@ -12,5 +12,5 @@
 -
 -
 
-## a) Virtuaalipalvelun vuokraus & d) Domain-nimi
+## a) + d) Virtuaalipalvelun vuokraus & Domain-nimi
 
