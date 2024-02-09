@@ -13,7 +13,6 @@
 -
 
 ## Rauta & HostOS
-
 - Asus X570 ROG Crosshair VIII Dark Hero AM4
 - AMD Ryzen 5800X3D
 - G.Skill DDR4 2x16gb 3200MHz CL16
@@ -22,6 +21,7 @@
 - Windows 11 Home 23H2
 
 ## a) + d) Virtuaalipalvelun vuokraus & Domain-nimi
+
 
 ## b) Alkutoimet
 
