@@ -2,15 +2,13 @@
 
 ## x) Tiivistelmä
 
-### Susanna Lehto - Teoriasta käytäntöön pilvipalvelimen avulla (h4)
--
--
--
+### Susanna Lehto - Teoriasta käytäntöön pilvipalvelimen avulla
+- Palvelimen vuokraamiseen ja käyttönottoon liittyy paljon eri vaiheita ja tekemistä. 
+- Päivittäminen ja suojaus on tärkeässä asemassa jokaista työvaihetta.
 
 ### Tero Karvinen - First Steps on a New Virtual Private Server
--
--
--
+- GitHub Education tarjoaa opiskelijoille lyhytaikaisesti ilmaisia palvelimia ja domain-nimiä.
+- Sivustolla on hyvin kootut ohjeet tärkeimmistä ensiaskelista uuden virtuaalipalvelimen käyttöönottoon.
 
 ## Rauta & HostOS
 - Asus X570 ROG Crosshair VIII Dark Hero AM4
