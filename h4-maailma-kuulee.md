@@ -154,6 +154,6 @@ Viimeisimpänä tehtävänä korvasin vielä etusivun uudella ja testasin sen to
 - Susanna Lehto, Teoriasta käytäntöön pilvipalvelimen avulla. https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/ Luettu 9.2.2024
 - Tero Karvinen, First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/ Luettu 9.2.2024
 - DigitalOcean. https://www.digitalocean.com/ Luettu 9.2.2024
-- GitHub. https://github.com/ Luettu 9.2.2024
+- Namecheap. https://www.namecheap.com/ Luettu 9.2.2024
 - GitHub Education. https://education.github.com/ Luettu 9.2.2024
-- Karvinen, T. 2018. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu 9.2.2024
+- Tero Karvinen, Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu 9.2.2024
