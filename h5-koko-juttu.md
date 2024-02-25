@@ -174,3 +174,14 @@ Domainilla käytetty palvelin on oletettavasti molemmissa sama, Debian? Alempaa 
 ![H5](H5_25.png)
 
 Tehtävä pakettiin kello 17:45. Aikaa kokonaisuudessaan lyhyen ruokatauon kanssa kului noin kolmisen tuntia. 
+
+### Lähdeluettelo
+
+Karvinen, T. H5 - Koko juttu, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu 24.02.2024.
+
+Karvinen, T. Install Debian on VirtualBox - Updated 2023. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 24.02.2024.
+
+Karvinen, T. 10.04.2018. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ Luettu 24.02.2024.
+
+Karvinen, T. 12.02.2012 Short HTML5 page. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2012/short-html5-page/ Luettu: 24.02.2024.
+
