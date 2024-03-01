@@ -143,7 +143,128 @@ Serveri takaisin käyntiin ja tarkastetaan homman toimivuus.
 ![H6](H6_26.png)
 
 ## b)
+Siirryin tuotantotyyppistä Djangoa varten toiselle virtuaalikoneelle, jotta pystyin alottamaan koko homman alusta. Apache2 ja Micro tälle koneelle oli jo kummiskin asennettuna. 
 
+        echo "See you at Pelottavapontso.me"|sudo tee /var/www/html.index.html
+
+![H6](H6_27.png)
+
+Luodaan kansio projektille. 
+
+        mkdir -p publicwsgi/pontso/static/
+        echo "Statically see you at Pelottavapontso.me."|tee publicwsgi/pontso/static/index.html
+
+![H6](H6_28.png)
+
+Luodaan samalla uusi VirtualHost. 
+
+        sudoedit /etc/apache2/sites-available/pontso.conf
+
+![H6](H6_29.png)
+
+Listataan uusi configuraatio käyttöön ja poistetaan nykyinen käytöstä. Samalla käynnistin myös apache2 uudestaan.
+
+        sudo a2ensite pontso.conf
+        sudo a2dissite hattu.example.com
+        sudo systemctl restart apache2
+
+![H6](H6_30.png)
+
+Testasin, että Syntax antaa OK eli vihreetä valoa jatkaa.
+
+        /sbin/apache2ctl configtest
+
+![H6](H6_31.png)
+
+Homma ok, joten yritin testata localhost osoitetta. Tällä kertaa kuitenkin epäonnistuneesti.
+
+        curl http://localhost/static/
+
+![H6](H6_32.png)
+
+Mietin, missä voisi olla vika ja yritin lisätä täydet oikeudet kansioille. 
+
+        chmod -R 755 /home/pontso/publicwsgi/pontso/static/
+
+Tämä ei kuitenkaan auttanut.
+
+![H6](H6_33.png)
+
+Yritin hetken mietiskellä ja googlettaa ongelmaa. En kuitenkaan tehnyt mitään muuta, kuin lukenut error logit ja vahingossa käynnistin Terminalin uudestaan. Tämän jälkeen yllättäen toimikin normaalisti? 
+
+![H6](H6_34.png)
+
+Eipä mitään, en jäänyt sen enempää ihmettelemään asiaa vaan siirryin heti Djangon asentamiseen VirtualEnvillä.
+
+        sudo apt-get -y install virtualenv
+        cd publicwsgi/
+        virtualenv -p python3 --system-site-packages env
+
+![H6](H6_35.png)
+![H6](H6_36.png)
+
+Virtuaalinen ympäristö käyntiin. Samalla oli myös hyvä tarkistaa se, mihin aloitetaan asennustoimet.
+
+        source env/bin/activate
+        which pip
+
+![H6](H6_37.png)
+
+Tein uuden tiedoston requirements.txt Django asennusta varten.
+
+        micro requirements.txt
+
+![H6](H6_38.png)
+
+Django asennus käyntiin.
+
+        pip install -r requirements.txt
+
+![H6](H6_39.png)
+
+Testaus vielä. Käytössäni versio 5.0.2.
+
+![H6](H6_40.png)
+
+Seuraavaksi Django projektin pariin. 
+
+        django-admin startproject pontsome
+
+Ja lisäksi yhdistetään Python Apacheen käyttämällä mod_wsgi:tä.
+
+        sudoedit /etc/apache2/sites-available/pontso.conf
+
+![H6](H6_41.png)
+
+Asennetaan Apache WSGI moduuli.
+
+        sudo apt-get -y install libapache2-mod-wsgi-py3
+
+![H6](H6_42.png)
+
+Testataan Syntax, mikä näyttää OK:lla vihreetä valoa.
+
+        /sbin/apache2ctl configtest
+
+![H6](H6_43.png)
+
+Testataan toimivuus.
+
+        curl -s localhost|grep title
+
+![H6](H6_44.png)
+
+403 Forbidden, eli jossain ollaan menty pieleen. Takaisin pontso.conf pariin katsomaan, että kaikki on oikein ja huomasinkin yhden virheen minkä korjasin.
+
+![H6](H6_45.png)
+
+Testataan toimivuus uudestaan.
+
+        curl -s localhost|grep title
+
+![H6](H6_46.png)
+
+500 Internal Server Error. Virhe vaihtunut, mutta en vieläkään tiedä missä vika. Yritin hieman katsoa error logeja, mutta ne löytänyt mitään selittävää tälle. Tällä kertaa tehtävä jäi keskeneräisenä tähän, vielä en kerennyt aloittaa alusta koko hommaa. 
 
 ### Lähdeluettelo
 
