@@ -25,5 +25,10 @@ Virtuaalinpalvelimen vuokraus käynnistyi tekemällä tunnukset valitsemaani pal
 
 ## b)
 
-## Lähteet
+### Lähdeluettelo
 
+Karvinen, T. H6 - DJ Ango, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu 29.02.2024.
+
+Karvinen, T. Django 4 Instant Customer Database Tutorial. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/ Luettu 29.02.2024.
+
+Karvinen, T. Deploy Django 4 - Production Install. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2022/deploy-django/ Luettu 29.02.2024.
