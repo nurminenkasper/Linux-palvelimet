@@ -19,7 +19,7 @@
 - Windows 11 Home 23H2
 
 ## a)
-Virtuaalinpalvelimen vuokraus käynnistyi tekemällä tunnukset valitsemaani palveluun, mikä oli tällä kertaa DigitalOcean, koska GitHub Student Pack tarjosi ilmaisia credittejä vuodeksi. 
+Käytin ensimmäiseen tehtävään tuoretta viime tehtävässä tehtyä virtuaalikonetta. Hommat käyntiin asentamalla Virtualenv
 
 ![H4](H4_1.png)
 
