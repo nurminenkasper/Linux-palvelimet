@@ -3,12 +3,12 @@
 ## x) Tiivistelmä
 
 ### Tero Karvinen - Django 4 Instant Customer Database Tutorial
-- 
-- 
+- Artikkelissa opastetaan rakentamaan asiakastietokanta Djangoa käyttäen 
+- Lisäksi siinä käydään läpi Django-admin liittymän käyttöä.
 
 ### Tero Karvinen - Deploy Django 4 - Production Install
-- 
-- 
+- Artikkelin opastaa asentamaan ja konfiguroimaan Django tuotantoympäristön käyttäen Apachea ja mod_wsgi:tä.
+- Myös ohjeita Apache-serverin asentamisesta ja peruskonfiguraatiosta sekä Django-projektin luomisesta ja yhdistämisestä Apacheen mod_wsgi:n avulla.
 
 ## Rauta & HostOS
 - Asus X570 ROG Crosshair VIII Dark Hero AM4
