@@ -46,6 +46,66 @@ Ei toimi. Annetaan kaikille käyttäjille oikeudet ajaa sitä ja testataan toimi
 ![H7](H7_5.png)
 
 ## c) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
+Vanhaan laboratorioon valikoitu alkukevään 2018 laboratorioharjoitus soveltuvin osin. Hieman tuotti hankaluuksia löytää sopivaa laboratorioharjoitusta, missä olisi sopivia harjoituksia. https://terokarvinen.com/2018/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-6-torstai-alkukevat-2018-5-op/
+
+Hommat käyntiin soveltuvin osin, eli tehdään Sorkan Sivut kuntoon. Aloitus asentamalla Apache2.
+
+        sudo apt install apache2
+
+![H7](H7_6.png)
+
+Tehdään rauta.example.com.conf ja lisäillään sinne relevantit tiedot.
+
+        sudoedit /etc/apache2/sites-available/rauta.example.com.conf
+
+![H7](H7_7.png)
+![H7](H7_8.png)
+
+Listataan rauta.example.com käyttöön ja käynnistetään apache2 uudestaan.
+
+        sudo a2ensite rauta.example.com
+        sudo systemctl restart apache2 
+
+![H7](H7_9.png)
+
+Luodaan rauta.example.com sivusto normaalin käyttäjän oikeuksin.
+
+        mkdir -p /home/pelottava/publicsites/rauta.example.com
+        echo rauta > /home/pelottava/publicsites/rauta.example.com/index.html
+
+![H7](H7_10.png)
+
+Tuli tässä vaiheessa mieleen, että edellinen käytössä ollut sivu olisi hyvä ottaa pois käytöstä.
+
+        sudo a2dissite pelottava.example.com
+        sudo systemctl restart apache2
+
+![H7](H7_11.png)
+
+Testaillaan, että sivu toimii localhostilta kutsuessa.
+
+        curl -H 'Host: rauta.example.com' localhost
+        curl localhost
+
+![H7](H7_12.png)
+
+Lisäillään vielä hosteihin uusi osoite.
+
+        sudoedit /etc/hosts
+
+![H7](H7_13.png)
+
+Lisäillään sitten itse html sivu Sorkka ja Rauta Oy:lle.
+
+        cd /publicsites/rauta.example.com/
+        micro index.html
+
+![H7](H7_14.png)
+![H7](H7_15.png)
+
+Lopuksi testi, että sivusto toimii oikein myös selaimessa.
+
+![H7](H7_16.png)
 
 ## d) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten.
 Tulevaa labraa varten asentelin tuoreen virtuaalikoneen. Virtuaalikoneelle annoin runsaasti muistia, prosessoriytimiä ja tallennustilaa. Suoritin vain Teron ohjeistuksen mukaiset päivitykset ja laitoin VirtualBox Guest Additionsit.
