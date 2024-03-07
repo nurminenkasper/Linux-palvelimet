@@ -13,7 +13,7 @@ Laitoin tehtävää varten asentumaan valitsemani ohjelmointikielen, tässä tap
 
         sudo apt install python3 python3-pip
 
-[H7](H7_1.png)
+![H7](H7_1.png)
 
 
 
