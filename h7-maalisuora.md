@@ -48,6 +48,9 @@ Ei toimi. Annetaan kaikille käyttäjille oikeudet ajaa sitä ja testataan toimi
 ## c) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
 ## d) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten.
+Tulevaa labraa varten asentelin tuoreen virtuaalikoneen. Virtuaalikoneelle annoin runsaasti muistia, prosessoriytimiä ja tallennustilaa. Suoritin vain Teron ohjeistuksen mukaiset päivitykset ja laitoin VirtualBox Guest Additionsit.
+
+![H7](H7_17.png)
 
 ### Lähdeluettelo
 
