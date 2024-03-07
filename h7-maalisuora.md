@@ -9,6 +9,13 @@
 - Windows 11 Home 23H2
 
 ## a) Käännä "Hei maailma" haluamallasi kielellä.
+Laitoin tehtävää varten asentumaan valitsemani ohjelmointikielen, tässä tapauksessa Python. 
+
+        sudo apt install python3 python3-pip
+
+[H7](H7_1.png)
+
+
 
 ## b) Laita Linuxiin uusi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
