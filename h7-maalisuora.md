@@ -15,9 +15,20 @@ Laitoin tehtävää varten asentumaan valitsemani ohjelmointikielen, tässä tap
 
 ![H7](H7_1.png)
 
+Seuraavaksi loin Microlla hellopontso.py tiedoston, mihin lisäsin itse Hello World tekstin omalla twistillä.
 
+        micro hellopontso.py
+
+![H7](H7_2.png)
+
+Testataan vielä toiminta suorittamalla luotu tiedosto pythonilla.
+
+        python3 hellopontso.py
+
+![H7](H7_3.png)
 
 ## b) Laita Linuxiin uusi komento niin, että kaikki käyttäjät voivat ajaa sitä.
+
 
 ## c) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
