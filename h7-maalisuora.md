@@ -28,7 +28,22 @@ Testataan vielä toiminta suorittamalla luotu tiedosto pythonilla.
 ![H7](H7_3.png)
 
 ## b) Laita Linuxiin uusi komento niin, että kaikki käyttäjät voivat ajaa sitä.
+Loin bash-skriptin microlla ja aloitin lisäämällä sinne suoritettavat komennot.
 
+        micro morning.sh
+
+![H7](H7_4.png)
+
+Testataan komennon toiminta. 
+
+        ./morning.sh
+
+Ei toimi. Annetaan kaikille käyttäjille oikeudet ajaa sitä ja testataan toiminta uudestaan.
+
+        chmod a+x morning.sh
+        sudo cp morning.sh /usr/local/bin
+
+![H7](H7_5.png)
 
 ## c) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
