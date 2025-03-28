@@ -1,2 +1,4 @@
 # Linux Palvelimet
-Homework reports for Haaga-Helia Linux course ICI003AS2A-3004
+Homework reports for Haaga-Helia Linux course. Reports in Finnish.
+
+## Tehtävä palautukset
